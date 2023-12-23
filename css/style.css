@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  border: none !important;
+}
+h1 {
+  font-size: 3.5em !important;
+}
+p {
+  font-size: 1.2em !important;
+}
+.btn-primary {
+  background-color: #fecb2a !important;
+}
+img {
+  width: 100%;
+}
+body {
+  text-transform: capitalize;
+}
+.banner .banner-img img {
+  width: 550px;
+}
+.quiz-button-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+section {
+  height: 80vh;
+  margin: 50px 0;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+.bubbly-button {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px 20px;
+
+  background-color: #fecb2a;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  box-shadow: 0 2px 25px rgb(255, 254, 170);
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
